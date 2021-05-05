@@ -1,7 +1,7 @@
-echo "Welcome to the updater script by LEHAtupointow"
-echo "Removing old files"
-rm -R adventbutwrong
-echo "Downloading new files"
-git clone https://github.com/textovortex/adventbutwrong
-echo "Done!"
 
+echo "Welcome to the updater script by LEHAtupointow and RPiNews."
+echo "Assuming you have git installed, we'll continue"
+cd adventbutwrong
+git pull
+cd
+echo "Done"
